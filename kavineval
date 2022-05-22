@@ -1,0 +1,9 @@
+a = eval(input("Enter a"))
+b = eval(input("Enter b"))
+c = int(input("enter ur choice"))
+if c == 1:
+    print(a+b)
+elif c == 2:
+    print(b+a)
+else:
+    print("invalid choice")
